@@ -1,10 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace ;
+namespace BibliotecaFut;
 public class Jugador
 {
-    
+    public double visionJuguego { get; set; }
+    public double visionCompanieros { get; set; }
+    public double potencia { get; set; }
+    public double habilidadPases { get; set; }
 }
